@@ -1,74 +1,62 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
-html {
-  height: 100%;
+body{
+	background-image: url(https://i.imgur.com/KV7rJR8.png); 
+	font-family: Arial, Verdana, Sans-serif;
 }
-@media (max-width: 32rem) {
-  html {
-    font-size: 12px;
-  }
-}
-
-body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
-  background: linear-gradient(#333, #111);
-  min-height: 100%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+h1{
+	text-align: center;
+	font-family: "Lucida Console", Monospace;
 }
 
-.badge {
-  display: block;
-  position: relative;
-  width: 20rem;
-  height: 20rem;
-  cursor: pointer;
-  background: url(https://source.unsplash.com/random/1000x1000) no-repeat 100% 50%;
-  background-size: 120%;
-  border-radius: 50%;
-  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
+nav, nav a{
+	text-align: center;
+	font-size: 1.03em;
+	color: black;
+	text-decoration: none;
+	word-spacing: 50px;
+	font-weight: bold;
 }
-.badge:hover {
-  box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
-  background-position: 0% 50%;
+
+a {text-decoration:none;}
+
+nav a:hover{color:#779ECB;}
+
+#socialMedia{
+	width: 0;
+	height: auto;
+	background-color: transparent;
+	float:right;
 }
-.badge:hover .text {
-  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
-          transform: rotate(-45deg) translate(0px) rotate(-315deg);
-  background: rgba(102, 51, 153, 0.5);
-  width: 20rem;
-  letter-spacing: 1rem;
-  line-height: 20rem;
-  height: 20rem;
-  margin-top: -10rem;
-  margin-left: -10rem;
-  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+#socialMedia ol li{list-style-type:none;}
+
+#insta{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -1px -2px;
+	width: 48px;
+	height: 47px;
 }
-.badge .text {
-  display: block;
-  position: absolute;
-  width: 10rem;
-  height: 10rem;
-  line-height: 10rem;
-  left: 50%;
-  top: 50%;
-  margin-top: -5rem;
-  margin-left: -5rem;
-  font-size: 10px;
-  font-family: Raleway, sans-serif;
-  text-align: center;
-  color: #fff;
-  border-radius: 50%;
-  background: rebeccapurple;
-  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
-          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
-  box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+#tumblr{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -62px 0;
+	width: 51px;
+	height: 50px;
+}
+#youtube{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -124px 0;
+	width: 51px;
+	height: 50px;
+}
+
+#homePagebox{
+	margin-left:auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 700px;
+	background-color:white;
+	box-shadow:0 2px 2px 2px #888888;
+}
+#anthony{text-align: center;}
+#anthony img {
+ margin-top: 80px;
+}
+.wrapper{
+	margin: auto;
+	width: 80%;
 }
