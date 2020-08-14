@@ -4,7 +4,7 @@ var canvas = document.getElementById('canvas'),
 
 text = {
     content: 'இந்த page இல் உள்ள message 48 மணி நேரம் கழித்து தானாகவே delete ஆகி விடும்',
-    fontSize: 40,
+    fontSize: 10,
     fontFamily: 'Arial'
 };
 
