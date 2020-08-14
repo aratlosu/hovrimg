@@ -3,7 +3,7 @@ var canvas = document.getElementById('canvas'),
     height, width, text, gindex, grads;
 
 text = {
-    content: 'Rainbow scrolling text!',
+    content: 'இந்த page இல் உள்ள message 48 மணி நேரம் கழித்து தானாகவே delete ஆகி விடும்',
     fontSize: 40,
     fontFamily: 'Arial'
 };
