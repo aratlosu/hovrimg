@@ -11,6 +11,17 @@ Share On Whatsapp</a>
   width: 100%;
   height: auto;
   }
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow:scroll;
+}
+  .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 </style>
 <embed src="https://hover.imfast.io/venkatadri-ringtone.mp3" autostart="true" width="0" height="0" loop="true"> </embed>
   <noembed>
@@ -19,7 +30,10 @@ Share On Whatsapp</a>
 <link rel="stylesheet" href="./wtap.css">
 </head>
 <body>
-<img src="/hovrimg/devo1.gif" class="responsive">
+<div class="container">
+   <img src="/hovrimg/devo1.gif" class="responsive">
+   <div class="top-left">Top Left</div>
+  </div>
 <iframe src="https://hover.imfast.io/venkatadri-ringtone.mp3" type="audio/mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
 <div id="player">
     <audio autoplay hidden>
